@@ -14,7 +14,6 @@ export default function Header(props) {
               <Link to="/">
                 <img src={Logo} alt="Cube" width="32" height="32" />
               </Link>
-              <a href="index.html"></a>
             </h1>
           </div>
           <button id="header-nav-toggle" className="header-nav-toggle">

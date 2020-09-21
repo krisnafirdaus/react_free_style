@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 import Section from "elements/Section";
 import Card from "elements/Card";
@@ -172,12 +173,12 @@ export default function Homepage() {
                       </div>
                     </div>
                     <div className="pricing-item-cta mb-8">
-                      <a
+                      <Link
+                        to="/"
                         className="button button-primary button-block"
-                        href="#"
                       >
                         Start free trial
-                      </a>
+                      </Link>
                     </div>
                   </Card>
                 ))}
